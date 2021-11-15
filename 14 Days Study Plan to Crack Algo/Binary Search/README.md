@@ -4,6 +4,9 @@ In computer science, binary search, also known as half-interval search, logarith
 
 Binary search runs in logarithmic time in the worst case, making `O(logn)` comparisons, where `n` is the number of elements in the array. Binary search is faster than linear search except for small arrays. However, the array must be sorted first to be able to apply binary search. There are specialized data structures designed for fast searching, such as hash tables, that can be searched more efficiently than binary search. However, binary search can be used to solve a wider range of problems, such as finding the next-smallest or next-largest element in the array relative to the target even if it is absent from the array.
 
+![binary search img](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
+<small>[Source: Geeks for Geeks _ Binary Search(https://www.geeksforgeeks.org/binary-search/) ]</small>
+
 # Algorithms
 
 This Binary Search algorithm takes advantage of a collection of elements that is already sorted by ignoring half of the elements after just one comparison.

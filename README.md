@@ -11,7 +11,7 @@ Each algorithm question will be presented in seperate files, with README file co
 # Algorithms
 
 ### 14 Days Study Plan to Crack Algo [[link](https://leetcode.com/study-plan/algorithm/)]
-- Binary Search
+- [Binary Search](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Binary%20Search) - Finds the position of a target value within a sorted array
 - Two Pointers
 - Sliding Window
 - Breadth-First Search / Depth-First Search
