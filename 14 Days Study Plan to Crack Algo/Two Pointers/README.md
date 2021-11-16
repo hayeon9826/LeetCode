@@ -126,3 +126,8 @@ print(isPairSum(arr, len(arr), val))
 
 Output: 1
 Time Complexity: `O(n)`
+
+<hr>
+
+# Source
+- [Two Pointers Technique(https://www.geeksforgeeks.org/two-pointers-technique/)
