@@ -19,7 +19,7 @@ Constraints:
 -104 <= nums[i] <= 104
 nums is sorted in non-decreasing order.
 
-<br />
+<hr />
 
 # 189. Rotate Array
 
@@ -52,7 +52,7 @@ Follow up:
 Try to come up with as many solutions as you can. There are at least three different ways to solve this problem.
 Could you do it in-place with O(1) extra space?
 
-<br/>
+<hr />
 
 # 283. Move Zeroes
 
@@ -74,7 +74,7 @@ Constraints:
 1 <= nums.length <= 104
 -231 <= nums[i] <= 231 - 1
 
-<br>
+<hr />
 # 167. Two Sum II - Input Array Is Sorted
 
 Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
@@ -106,3 +106,57 @@ Constraints:
 numbers is sorted in non-decreasing order.
 -1000 <= target <= 1000
 The tests are generated such that there is exactly one solution.
+
+<hr />
+# 344. Reverse String
+
+Write a function that reverses a string. The input string is given as an array of characters s.
+
+You must do this by modifying the input array in-place with O(1) extra memory.
+
+Example 1:
+
+```
+Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+```
+
+Example 2:
+
+```
+Input: s = ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+```
+
+Constraints:
+
+- `1 <= s.length <= 105`
+- `s[i]` is a printable ascii character.
+
+<hr />
+
+# 557. Reverse Words in a String III
+
+Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+Example 1:
+
+```
+Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+```
+
+Example 2:
+
+```
+Input: s = "God Ding"
+Output: "doG gniD"
+```
+
+Constraints:
+
+- `1 <= s.length <= 5 \* 104`
+- s contains printable ASCII characters.
+- s does not contain any leading or trailing spaces.
+- There is at least one word in s.
+- All the words in s are separated by a single space.
