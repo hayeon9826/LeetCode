@@ -160,3 +160,69 @@ Constraints:
 - s does not contain any leading or trailing spaces.
 - There is at least one word in s.
 - All the words in s are separated by a single space.
+
+<hr />
+
+# 876. Middle of the Linked List
+
+Given the head of a singly linked list, return the middle node of the linked list.
+
+If there are two middle nodes, return the second middle node.
+
+Example 1:
+![img](https://assets.leetcode.com/uploads/2021/07/23/lc-midlist1.jpg)
+
+```
+Input: head = [1,2,3,4,5]
+Output: [3,4,5]
+Explanation: The middle node of the list is node 3.
+```
+
+Example 2:
+![img](https://assets.leetcode.com/uploads/2021/07/23/lc-midlist2.jpg)
+
+```
+Input: head = [1,2,3,4,5,6]
+Output: [4,5,6]
+Explanation: Since the list has two middle nodes with values 3 and 4, we return the second one.
+```
+
+Constraints:
+
+- The number of nodes in the list is in the range [1, 100].
+- 1 <= Node.val <= 100
+
+<hr />
+
+# 19. Remove Nth Node From End of List
+
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+Example 1:
+![img](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
+
+```
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
+```
+
+Example 2:
+
+```
+Input: head = [1], n = 1
+Output: []
+```
+
+Example 3:
+
+```
+Input: head = [1,2], n = 1
+Output: [1]
+```
+
+Constraints:
+
+- The number of nodes in the list is `sz`.
+- `1 <= sz <= 30`
+- `0 <= Node.val <= 100`
+- `1 <= n <= sz`
