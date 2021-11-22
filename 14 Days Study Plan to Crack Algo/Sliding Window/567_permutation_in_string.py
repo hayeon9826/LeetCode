@@ -108,6 +108,6 @@ class Solution:
         return False
 
 # For counter solution, we need to compare each count for each letter, so the time complesity is not O(n) but O(n * len(set(s1))).
-# If using the hash function to generate the key for comparision, the time complesity will be true O(n)
+# If using the hash function to generate the key for comparision, the time complesity will be true O(n)git
 
 # Source: https://leetcode.com/problems/permutation-in-string/discuss/173045/Short-97-Python-NO-Counter
