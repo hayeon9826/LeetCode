@@ -1,4 +1,4 @@
-Source: [Recursion and Backtracking](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)
+Source: [Recursion and Backtracking - HackerEarch](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)
 
 ## Recursion:
 
@@ -96,4 +96,4 @@ Here's how it works for N = 4.
 So, at the end it reaches the following solution:
 ![n queens result](https://he-s3.s3.amazonaws.com/media/uploads/389855c.png)
 
-So, clearly, the above algorithm, tries solving a subproblem, if that does not result in the solution, it undo whatever changes were made and solve the next subproblem. If the solution does not exists (N = 2), then it returns .
+So, clearly, the above algorithm, tries solving a subproblem, if that does not result in the solution, it undo whatever changes were made and solve the next subproblem. If the solution does not exists (N = 2), then it returns `false`.
