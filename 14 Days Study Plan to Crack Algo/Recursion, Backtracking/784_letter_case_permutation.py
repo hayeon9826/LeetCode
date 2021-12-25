@@ -1,15 +1,13 @@
 class Solution:
     def letterCasePermutation(self, s: str) -> List[str]:
-        solution = []
-
         def backtrack(sub="", i=0):
             if len(sub) == len(s):
                 solution.append(sub)
             else:
                 if s[i].isalpha():
-                    backtrack(sub + s[i].upper(), i+1)
+                    backtrack(sub + s[i].swapcase(), i+1)
                 backtrack(sub + s[i], i+1)
-        
+        solution = []
         backtrack()
         return solution
 
