@@ -36,10 +36,11 @@
 
 
 
-- [Recursion / Backtracking](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Recursion%2C%20Backtracking)
+- [Recursion / Backtracking](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Recursion%2C%20Backtracking) - 재귀 함수는 자기 자신을 참조하는 함수이다. 원래의 문제를 동일한 유형의 하위 문제로 나누고 하위문제를 해결한 다음 결과와 결합한다. (시간 복잡도 `O(n2)`) 백트래킹은 한정 조건을 가진 문제를 푸는 전략이다. 해를 찾는 도중 해당 경로에서 해가 나오지 않고 막히면, 되돌아가서 다른 경로에서 해를 찾아가는 기법을 말한다. (시간 복잡도는 ` O(N!)`)
 
 
-- [Dynamic Programming](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Dynamic%20Programming)
+- [Dynamic Programming](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Dynamic%20Programming) - 동적 프로그래밍은 분할정복 기법으로 문제를 푸는것. (기억하는 프로그래밍) 큰 문제를 한 번에 해결하기 힘들 때 작은 여러 개의 문제로 나누어서 푸는 기법이다. 작은 문제들을 풀다보면 같은 문제들을 반복해서 푸는 경우가 생기는데, 그 문제들을 매번 재계산하지 않고 값을 저장해두었다가 재사용하는 기법이 동적 프로그래밍이다. 시간 복잡도는 `O(N)`
+-  재귀 호출 시 반복적으로 계산되는 것들의 계산 횟수를 줄이기 위해 이전에 계산했던 값을 저장해두었다가 나중에 재사용하는 **메모이제이션**이 동적 프로그래밍 중 하나임
 
 
 - [Bit Manipulation](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Bit%20Manipulation)
