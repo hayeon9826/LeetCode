@@ -4,6 +4,9 @@
 * LeetCode: https://leetcode.com/
 
 각 주제마다 README.md 파일에서 알고리즘 개념을 설명합니다. (Geeks for Geeks 등 타 사이트 참고) 
+
+<br/>
+
 그리고 Question.md 파일에는 주제별 알고리즘 문제가 적혀있습니다.
 
 
@@ -13,9 +16,19 @@
 ### 14 Days Study Plan to Crack Algo [[link](https://leetcode.com/study-plan/algorithm/)]
 - [Binary Search](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Binary%20Search) - 이진 탐색이란 정렬된 배열에서 특정 값을 찾는 알고리즘이다. 배열의 중간에 있는 값을 선택해 찾고자 하는 값 A와 비교한다. A가 중간 값보다 작으면 배열 좌측의 값들을, A가 중간값보다 배열의 우측의 값들을 탐색한다. 그리고 해당 값을 찾을 때까지 이 과정을 반복한다. `시간 복잡도: O(logN)`
 
-- Two Pointers
-- Sliding Window
-- Breadth-First Search / Depth-First Search
-- Recursion / Backtracking
-- Dynamic Programming
-- Bit Manipulation
+- [Two Pointers](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Two%20Pointers) - 투 포인터 알고리즘은 정렬된 리스트와 두 개의 포인터를 이용한 알고리즘이다. 두 개의 포인터로 타겟값에 순차적으로 접근하면서, 두 포인터 구간의 값이 타겟 값과 같을 때 까지 포인터를 조작하는 기법을 말한다.  `시간 복잡도:  O(n)`
+
+
+- [Sliding Window](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Sliding%20Window) - 슬라이딩 윈도우(Sliding Window) 알고리즘은 고정된 사이즈의 윈도우가 이동하면서 윈도우 내에 있는 데이터를 이용해 문제를 푸는 알고리즘을 이다. 배열이나 리스트의 요소의 일정 범위의 값을 비교할때 사용하면 좋은 알고리즘이다. 투 포인터와 개념이 비슷한데, 두 포인터 간의 거리가 고정되어있다는 점에서 차이가 있다. 예를 들어 정수로 이루어진 배열 [1, 2, 6, 4, 8, 6, 3, 9, 3] 에서 길이가 3인 서브배열의 합계가 가장 큰 배열을 푸는 문제에서 사용될 수 있다.  `시간 복잡도:  O(n)`
+
+
+- [Breadth-First Search / Depth-First Search](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Breadth-First%20Search%2C%20Depth-First%20Search)
+
+
+- [Recursion / Backtracking](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Recursion%2C%20Backtracking)
+
+
+- [Dynamic Programming](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Dynamic%20Programming)
+
+
+- [Bit Manipulation](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Bit%20Manipulation)
