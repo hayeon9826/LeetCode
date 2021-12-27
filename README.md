@@ -22,7 +22,18 @@
 - [Sliding Window](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Sliding%20Window) - 슬라이딩 윈도우(Sliding Window) 알고리즘은 고정된 사이즈의 윈도우가 이동하면서 윈도우 내에 있는 데이터를 이용해 문제를 푸는 알고리즘을 이다. 배열이나 리스트의 요소의 일정 범위의 값을 비교할때 사용하면 좋은 알고리즘이다. 투 포인터와 개념이 비슷한데, 두 포인터 간의 거리가 고정되어있다는 점에서 차이가 있다. 예를 들어 정수로 이루어진 배열 [1, 2, 6, 4, 8, 6, 3, 9, 3] 에서 길이가 3인 서브배열의 합계가 가장 큰 배열을 푸는 문제에서 사용될 수 있다.  `시간 복잡도:  O(n)`
 
 
-- [Breadth-First Search / Depth-First Search](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Breadth-First%20Search%2C%20Depth-First%20Search)
+- [Breadth-First Search / Depth-First Search](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Breadth-First%20Search%2C%20Depth-First%20Search) - 너비 우선 탐색(BFS)과 깊이 우선 탐색(DFS) 알고리즘이다. 두 가지 모두 그래프를 탐색하는 방법이다. 그래프란 정점(node)과 그 정점을 연결하는 간선(edge)으로 이루어진 자료구조를 말하며, 하나의 정점에서 시작해 차례대로 모든 정점들을 한 번씩 방문하는 것을 말한다.
+
+- BFS(너비우선탐색): 현재 정점에 연결된 가까운 점들부터 탐색 / 큐를 이용해서 구현
+> BFS의 시간복잡도: 인접 리스트로 표현된 그래프 - `O(N+E)` / 인접 행렬로 표현된 그래프 - `O(N^2)`
+
+- DFS(깊이우선탐색): 현재 정점에서 갈 수 있는 점들까지 들어가면서 탐색 / 스택 또는 재귀함수로 구현
+> DFS의 시간복잡도: 인접 리스트로 표현된 그래프 - `O(N+E)` / 인접 행렬로 표현된 그래프 - `O(N^2)`
+
+- 경로의 특징을 저장해둬야 하는 문제는 DFS가 유리하며, 최단거리를 구해야 할 경우 BFS가 유리
+	
+
+
 
 
 - [Recursion / Backtracking](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Recursion%2C%20Backtracking)
