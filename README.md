@@ -42,4 +42,11 @@ Question.md 파일에는 주제별 알고리즘 문제가 적혀있습니다.
 -  재귀 호출 시 반복적으로 계산되는 것들의 계산 횟수를 줄이기 위해 이전에 계산했던 값을 저장해두었다가 나중에 재사용하는 **메모이제이션**이 동적 프로그래밍 중 하나임
 
 
-- [Bit Manipulation](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Bit%20Manipulation)
+- [Bit Manipulation](https://github.com/hayeon9826/LeetCode/tree/main/14%20Days%20Study%20Plan%20to%20Crack%20Algo/Bit%20Manipulation) - '비트 조작하기' 라는 뜻으로 우리가 흔히 사용하는 10진수가 아닌 2진수로 비트를 연산하는 알고리즘이다. 하나의 비트는 두 개의 상태(0 또는 1)중 하나를 가질 수 있는데 여러가지 연산을 할 수 있다.
+ - 비트 연산자(Bitwise Operators)
+> & (Binary AND) : bit 단위로 and연산을 합니다.
+> | (Binary OR) : bit 단위로 or연산을 합니다.
+> ^ (Binary XOR) : bit 단위로 xor연산을 합니다.
+> ~ (Binary NOT) : bit 단위로 not연산을 합니다.(1의 보수)
+> << (Binary left Shift) : bit 단위로 왼쪽으로 비트단위 밀기 연산을 합니다.
+> >> (Binary right Shift) : bit 단위로 오른쪽으로 비트단위 밀기 연산을 합니다.
