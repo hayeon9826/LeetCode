@@ -6,8 +6,11 @@ class Solution:
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        for i in nums:
-            nums[1:]
-            if i in nums:
+      # sore the array
+        nums.sort()
+        for i in range(1,len(nums)):
+          # 연속적인 수 중에 같은 수 있는지 체크
+            if nums[i] == nums[i-1]:
                 return True
         return False
+        # O(n)
