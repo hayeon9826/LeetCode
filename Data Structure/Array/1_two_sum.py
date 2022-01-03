@@ -12,10 +12,10 @@ class Solution:
 # dictionary 활용
 # 각 배열의 값과 index를 저장하며, 짝의 수가 있는지 확인
     def twoSum(self, nums, target):
-        d = {}
-        for i, n in enumerate(nums):
-            m = target - n
-            if m in d:
-                return [d[m], i]
+        dic = {}
+        for i, val in enumerate(nums):
+            ans = target - val
+            if ans in dic:
+                return [dic[ans], i]
             else:
-                d[n] = i
+                dic[val] = i
