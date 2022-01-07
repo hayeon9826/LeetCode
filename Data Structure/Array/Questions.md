@@ -197,7 +197,7 @@ Follow up:
 - What if nums1's size is small compared to nums2's size? Which algorithm is better?
 - What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 
-# Reshape the Matrix
+# 566. Reshape the Matrix
 
 In MATLAB, there is a handy function called reshape which can reshape an m x n matrix into a new one with a different size r x c keeping its original data.
 
