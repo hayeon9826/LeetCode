@@ -11,24 +11,28 @@ class Solution:
 
 # source: https://leetcode.com/problems/binary-tree-preorder-traversal/discuss/45290/Python-solutions-(recursively-and-iteratively).
 # recursive
-def preorderTraversal1(self, root):
-    res = []
-    self.dfs(root, res)
-    return res
-    
-def dfs(self, root, res):
-    if root:
-        res.append(root.val)
-        self.dfs(root.left, res)
-        self.dfs(root.right, res)
+class Solution:
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        answer = []
+       
+        def dfs(root, answer):
+            if root: 
+                answer.append(root.val)
+                dfs(root.left, answer)
+                dfs(root.right, answer)
+        
+        dfs(root, answer)
+        return answer
+        
 
 # iteratively
-def preorderTraversal(self, root):
-    stack, res = [root], []
-    while stack:
-        node = stack.pop()
-        if node:
-            res.append(node.val)
-            stack.append(node.right)
-            stack.append(node.left)
-    return res
+class Solution:
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack, answer = [root], []
+        while stack:
+            node = stack.pop()
+            if node:
+                answer.append(node.val)
+                stack.append(node.right)
+                stack.append(node.left)
+        return answer
