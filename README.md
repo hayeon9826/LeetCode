@@ -51,3 +51,5 @@ Question.md 파일에는 주제별 알고리즘 문제가 적혀있습니다.
 - Linked List
 - Stack / Queue
 - Tree
+- Graph
+- Heap(Priority Queue)
