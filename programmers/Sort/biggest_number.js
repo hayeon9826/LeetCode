@@ -11,3 +11,23 @@ function solution(numbers) {
 }
 
 // 참고: https://velog.io/@fastpace04/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4JavaScript-%EA%B0%80%EC%9E%A5-%ED%81%B0-%EC%88%98
+
+for (let i = 0; i < arr.length; i++) {
+  if (Array.isArray(arr[i])) {
+    arr[i].forEach(function (a) {
+      if (a === item) {
+        count++;
+      }
+    });
+  } else {
+    if (arr[i] === item) {
+      count++;
+    }
+  }
+}
+
+for (let i = 0; i < messages.length; i++) {
+  if (messages[i].firstChild.data === message) {
+    answer.push(i + 1);
+  }
+}
